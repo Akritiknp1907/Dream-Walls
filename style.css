@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 2rem;
+  transition: background-color 0.3s ease-in-out; /* smooth color change */
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  color: #222;
+}
+
+h3 {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+
+.color-group {
+  margin: 2rem 0;
+}
+
+
+.button-row {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 15px;
+  justify-content: center;
+}
+
+
+.button {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+
+#Soft\ White { background-color: #F5F5F5; }
+#Warm\ Beige { background-color: #EADBC8; }
+#Greige { background-color: #D6CCC2; }
+#Charcoal\ Gray { background-color: #3C3C3C; }
+
+
+#Sky\ Blue { background-color: #A2D2FF; }
+#Mint\ Green { background-color: #B7E4C7; }
+#Lavender { background-color: #C8A2C8; }
+#Soft\ Gray { background-color: #E9ECEF; }
+
+#Terracotta { background-color: #E07A5F; }
+#Mustard\ Yellow { background-color: #F4A261; }
+#Warm\ Brown { background-color: #8D6E63; }
+#Cream\ White { background-color: #FAF3DD; }
+
+
+#Navy\ Blue { background-color: #264653; }
+#Forest\ Green { background-color: #2A9D8F; }
+#Deep\ Burgundy { background-color: #800020; }
+#Charcoal\ Black { background-color: #1C1C1C; }
